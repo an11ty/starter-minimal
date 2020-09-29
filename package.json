@@ -1,0 +1,27 @@
+{
+  "name": "@an11ty/starter-minimal",
+  "version": "0.0.3",
+  "description": "Absolutely minimal starter site for an11ty with a few example files.",
+  "scripts": {
+    "build": "an11ty build --template=node_modules/@an11ty/template-minimal/src",
+    "dev": "an11ty dev --template=node_modules/@an11ty/template-minimal/src"
+  },
+  "keywords": [
+    "an11ty",
+    "11ty"
+  ],
+  "author": "saibotsivad",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an11ty/starter-minimal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/an11ty/an11ty"
+  },
+  "homepage": "https://an11ty.com",
+  "dependencies": {
+    "@an11ty/template-minimal": "^0.0.1",
+    "an11ty": "^0.0.26"
+  }
+}
