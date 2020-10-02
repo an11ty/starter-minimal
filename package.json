@@ -23,7 +23,7 @@
   },
   "homepage": "https://an11ty.com",
   "dependencies": {
-    "@an11ty/template-minimal": "^0.0.3",
+    "@an11ty/template-minimal": "^1.0.0",
     "an11ty": "^0.0.27"
   }
 }
