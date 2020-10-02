@@ -1,13 +1,10 @@
 # Starter Site
 
-# [WIP]: Still at `0.x` things are still broken.
+This is an absolutely minimal starter for a website built
+using [an11ty](https://github.com/an11ty/an11ty).
 
-You probably don't want to use this! You probably want to look
-at the [default an11ty template](https://github.com/an11ty/template).
-
-This is an absolutely minimalist template for a website built
-using [an11ty](https://github.com/an11ty/an11ty). It is primarily
-used for internal development.
+For a more complete starter, you should look at the official
+[an11ty starter](https://github.com/an11ty/starter) pack.
 
 ## Setup
 
@@ -15,16 +12,9 @@ If you are starting from scratch, you can create a copy with
 no bindings to this git repository using:
 
 ```bash
-npx degit an11ty/starter-minimist my-website
+npx degit an11ty/starter-minimal my-website
 cd my-website
 git init
-npm install
-```
-
-Use git or some other tool to download this repository, then
-install all dependencies:
-
-```bash
 npm install
 ```
 
@@ -38,8 +28,8 @@ npm run build
 
 ## Develop
 
-Same as building, but updates pages and assets when file changes
-are detected, and launches a [local HTTP server on port `8080`](http://localhost:8080):
+Same as building, but updates pages and assets when file changes are detected,
+and launches a [local HTTP server on port `8080`](http://localhost:8080):
 
 ```bash
 npm run dev
@@ -47,8 +37,9 @@ npm run dev
 
 ## Folder Structure
 
-This website uses the [an11ty/template-minimist](https://github.com/an11ty/template-minimist),
-so look there for more information.
+This website uses the
+[an11ty/template-minimal](https://github.com/an11ty/template-minimal),
+which does not have very many options.
 
 ### `/`
 

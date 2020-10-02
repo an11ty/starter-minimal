@@ -8,10 +8,12 @@
   },
   "keywords": [
     "an11ty",
-    "11ty"
+    "11ty",
+    "eleventy",
+    "static-site-generator"
   ],
   "author": "saibotsivad",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "VOL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/an11ty/starter-minimal.git"
@@ -22,6 +24,6 @@
   "homepage": "https://an11ty.com",
   "dependencies": {
     "@an11ty/template-minimal": "^0.0.1",
-    "an11ty": "^0.0.26"
+    "an11ty": "^0.0.27"
   }
 }
