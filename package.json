@@ -1,6 +1,6 @@
 {
   "name": "@an11ty/starter-minimal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Absolutely minimal starter site for an11ty with a few example files.",
   "scripts": {
     "build": "an11ty build --template=node_modules/@an11ty/template-minimal/src",
